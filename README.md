@@ -12,7 +12,7 @@ USDC/ALGO transfers, Tinyman swaps, and token minting on Algorand.
 [![Algorand](https://img.shields.io/badge/Algorand-Mainnet%20%2B%20Testnet-blue?style=flat-square)](https://algorand.co)
 [![x402](https://img.shields.io/badge/x402-Supported-green?style=flat-square)](https://www.x402.org)
 [![npm](https://img.shields.io/badge/npm-pixa--wallet--mcp-red?style=flat-square)](https://www.npmjs.com/package/pixa-wallet-mcp)
-[![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-gray?style=flat-square)](LICENSE)
 
 </div>
 
@@ -26,13 +26,13 @@ drive the Pixa Wallet MCP server.
 ## Install
 
 ```bash
-npx skills add ogsamrat/pixa-skills
+npx skills add pixa-wallet/skills
 ```
 
 Target a specific agent, skip prompts:
 
 ```bash
-npx skills add ogsamrat/pixa-skills -a claude-code -y
+npx skills add pixa-wallet/skills -a claude-code -y
 ```
 
 Or copy by hand — the skill is plain markdown:
@@ -62,7 +62,7 @@ cp -r skills/pixa-wallet ~/.claude/skills/
 ## Repository layout
 
 ```
-pixa-skills/
+skills/
 ├── README.md
 ├── LICENSE
 └── skills/
@@ -92,4 +92,4 @@ pixa-skills/
 
 ## License
 
-[MIT](LICENSE)
+[GPL-3.0](LICENSE)
